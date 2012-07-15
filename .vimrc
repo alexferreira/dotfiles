@@ -39,8 +39,10 @@ syntax on
 " Highlight current line
 set cursorline
 
-" Make tabs as wide as two spaces
+" The first setting sets up 2-space tabs, the second tells vi to use 2 spaces when text is indented (auto or with the manual indent adjustmenters), and the third tells vi not to auto-replace spaces with tab characters.
 set tabstop=2
+set shiftwidth=2
+set expandtab
 
 " Show “invisible” characters
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
