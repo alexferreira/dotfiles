@@ -2,6 +2,7 @@
 cd "$(dirname "$0")"
 git pull
 function doIt() {
+  [ ! -d ~/.vim ] && mkdir ~/.vim  
   [ ! -d ~/Projects ] && mkdir ~/Projects  
 
   rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" --exclude "README.md" -av . ~
