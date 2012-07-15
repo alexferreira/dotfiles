@@ -61,6 +61,9 @@ set hlsearch
 " Ignore case of searches
 set ignorecase
 
+" Automatically save before :next, :make etc.
+set autowrite
+
 " Highlight dynamically as pattern is typed
 set incsearch
 
