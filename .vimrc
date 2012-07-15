@@ -20,6 +20,9 @@ set encoding=utf-8 nobomb
 set autoindent
 set smarttab
 
+" This setting will cause the cursor to very briefly jump to a brace/parenthese/bracket's match whenever you type a closing or opening brace/parenthese/bracket.
+set showmatch
+
 " Change mapleader
 let mapleader=","
 
