@@ -16,6 +16,10 @@ set gdefault
 " Use UTF-8 without BOM
 set encoding=utf-8 nobomb
 
+" Automatic indentation
+set autoindent
+set smarttab
+
 " Change mapleader
 let mapleader=","
 
