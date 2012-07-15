@@ -26,6 +26,9 @@ set showmatch
 " Change mapleader
 let mapleader=","
 
+" file for autosaved session
+let g:ausession=".vimsession"
+
 " Don’t add empty newlines at the end of files
 set binary
 set noeol
